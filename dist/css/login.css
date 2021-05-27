@@ -1,0 +1,267 @@
+body{
+
+    margin: 0;
+
+    padding: 0;
+
+    background: url(../../image/vel-tech-ban.jpg) no-repeat;
+
+    background-size: cover;
+
+    /*background-position: center;*/
+
+    font-family: sans-serif;
+
+}
+
+.loginbox{
+
+    width:380px;
+
+    height: 420px;
+
+    background:rgba(0,0,0,0.5);
+
+    color:#fff;
+
+    top:50%;
+
+    left: 50%;
+
+    position: absolute;
+
+    transform: translate(-50%,-50%);
+
+    box-sizing: border-box;
+
+    padding: 70px 30px;
+
+}
+
+.avatar{
+
+    width: 100px;
+
+    height: 100px;
+
+    border-radius: 50%;
+
+    position: absolute;
+
+    top:-50px;
+
+    left: calc(50% - 50px);
+
+}
+
+/*.avatar{
+    width: 200px;
+    height: 100px;
+    border-radius: 10%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 90px);
+}*/
+
+h1{
+
+    margin: 0;
+
+    padding: 0 0 20px;
+
+    text-align: center;
+
+    font-size: 22px;
+
+}
+
+.loginbox p{
+
+    margin: 0;
+
+    padding: 0;
+
+    font-weight: bold;
+
+}
+
+.loginbox input{
+
+    width: 100%;
+
+    margin-bottom: 20px;
+
+}
+
+.loginbox input[type="text"], input[type="password"]
+
+{
+
+    border:none;
+
+    border-bottom: 1px solid #fff;
+
+    background: transparent;
+
+    outline: none;
+
+    height: 40px;
+
+    color: white;
+
+    font-size: 14px;
+
+}
+
+.loginbox input[type="submit"]{
+
+    border:none;
+
+    outline: none;
+
+    height: 40px;
+
+    background-color: #1c8adb;
+
+    color: #fff;
+
+    font-size: 18px;
+
+    border-radius: 30px;
+
+    
+
+}
+
+.loginbox input[type="submit"]:hover
+
+{
+
+    cursor: pointer;
+
+    background-color: green;
+
+    color:#000;
+
+}
+
+.loginbox a{
+
+    text-decoration: none;
+
+    color:white;
+
+}
+
+.loginbox a:hover{
+
+    color:red;
+
+}
+/*-----start-responsive-design------*/
+@media (max-width:1024px){
+.loginbox  {
+        margin:8% auto 0;
+        width:45%;
+    }
+    .copy-right {
+    left: 41%;
+    bottom:-18%;
+    }
+}
+@media (max-width:768px){
+    .loginbox  {
+        margin:12% auto 0;
+        width:57%;
+    }
+    .copy-right {
+    left:38%;
+    bottom:-14%;
+    }
+}
+@media (max-width:640px){                                  
+    .loginbox  {
+        margin:13% auto 0;
+        width:70%;
+    }
+    .copy-right {
+    left:36%;
+    bottom:-18%;
+    }
+}
+@media (max-width:480px){                                  
+    .loginbox  {
+        margin:20% auto 0;
+        width:90%;
+    }
+    .copy-right {
+    left:30%;
+    bottom:-17%;
+    }
+    
+}
+@media (max-width:320px){                                  
+    .loginbox  {
+        margin:20% auto 0;
+        width:95%;
+    }
+    form{
+        padding:19% 1.5em; 
+    }
+    form li{
+        margin-top:10px;
+    }
+    
+    input[type="text"], input[type="password"]{
+        font-size:15px;
+        padding: 0.5em 1em 0.5em 1em;
+    }
+    input[type="submit"]{
+        float:none;
+        font-size: 15px;
+        padding: 10px 10px;
+        width: 40%;
+        margin-left: 28%;
+    }
+    
+    input[type="button"]{
+        float:none;
+        font-size: 15px;
+        padding: 10px 10px;
+        width: 40%;
+        margin-left: 28%;
+    }
+    
+    .head{
+        top:-12%;
+        left:35.5%;
+    }
+    .head img {
+    width:69%;
+    }
+    .user {
+        background: url(../images/icons.png) no-repeat 12px 4px;
+    }
+    .lock {
+        background: url(../images/icons.png) no-repeat -20px 3px;
+    }
+    .p-container .checkbox {
+    float: none;
+    text-align: center;
+    }
+    .p-container{
+        margin-top: 0;
+    }
+    .icon{
+        margin:6px -11px 0px 0px;
+    }
+    .p-container .checkbox i {
+    position: absolute;
+    top: 18px;
+    left: 43px;
+    }
+    .copy-right {
+    left:20%;
+    bottom:-10%;
+    }
+}
